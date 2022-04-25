@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #202124;
+  color: #bdbdbe;
+}
+
+.brand {
+  font-size: 1.5rem;
+  color: #e5e5e5;
+}
+
+.logo {
+  width: 54px;
+  height: auto;
+}
+
+.year {
+  font-size: 0.8rem;
+}
+
+.noteContent,
+.noteTitle {
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  border-radius: 0.5rem;
+  color: #bdbdbe;
+}
+
+.noteTitle {
+  font-weight: bold;
+}
+
+.btnAdd,
+.addIcon,
+.btnDelete,
+.deleteIcon {
+  border: none;
+}
+
+.addIcon,
+.deleteIcon {
+  width: 34px;
+  height: 34px;
+}
